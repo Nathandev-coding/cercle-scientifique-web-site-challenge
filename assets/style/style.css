@@ -125,7 +125,7 @@
     height: 100px;
     background: #5f5fd117;
     border: 1px solid #00008b2f;
-    transform: translateX(-50px);
+    transform: translateX(-10px)translateY(20px);
     
 }
 .home-img:nth-child(2){
@@ -137,13 +137,10 @@
 .home-img:nth-child(3){
     width: 100px;
     height: 100px;
-   
     background: linear-gradient(to right,#0c0c4917,  #11cf903a);
     border: 1px solid #5f5fd117;
-    transform: translateX(50px);
-   
+    transform: translateX(10px)translateY(20px);
 }
-
 .home-content-title{
     transform: translateY(350px);
     opacity: 0;
