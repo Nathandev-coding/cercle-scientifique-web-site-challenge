@@ -119,23 +119,25 @@
 .home-img{
     background: linear-gradient(to right,#5f5fd117,  #00008b3a);
     border-radius: 95px;
-    width: 120px;
-    height: 120px;
-   
 }
 .home-img:nth-child(1){
+    width: 100px;
+    height: 100px;
     background: #5f5fd117;
     border: 1px solid #00008b2f;
     transform: translateX(-50px);
     
 }
 .home-img:nth-child(2){
+    width: 110px;
+    height: 110px;
     transform: translateY(-30px);
     border: 1px solid rgb(252, 248, 56);
-    
-
 }
 .home-img:nth-child(3){
+    width: 100px;
+    height: 100px;
+   
     background: linear-gradient(to right,#0c0c4917,  #11cf903a);
     border: 1px solid #5f5fd117;
     transform: translateX(50px);
