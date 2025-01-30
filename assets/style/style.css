@@ -146,8 +146,12 @@
 
 /*===== HOME SECTION=====*/
 .home-section {
+     display: none;
     background: linear-gradient(to right,#5f5fd141,  #00008b2f);
     
+}
+.home-section.show{
+    display: flex;
 }
 .home-content-img{
     transform: translateY(-100px);
