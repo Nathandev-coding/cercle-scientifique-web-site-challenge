@@ -238,3 +238,17 @@
     width: 180px;
     height: 120px;
 }
+/*===== TEAM SECTION=====*/
+.team-section{
+    background: linear-gradient(to right,#5f5fd141,  #00008b2f); 
+}
+.card-team {
+    background: transparent;
+   
+    border:1px solid #5f5fd1;
+}
+.card-img-team {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
