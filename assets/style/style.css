@@ -95,6 +95,55 @@
 }
 
 
+/*=========== INTRO ===========*/
+.intro{
+    display: flex;
+    background: linear-gradient(to right,#5f5fd1,  #00008bfd);
+    z-index: 10000;
+}
+.intro .word{
+    font-size: 50px;
+    opacity: 0;
+    font-weight: bold;
+    animation: fadeInOut 2s infinite;
+}
+@keyframes fadeInOut {
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.intro .word:nth-child(1){
+    animation-delay: 0s;
+}
+.intro .word:nth-child(2){
+    animation-delay: 2s;
+}
+.intro .word:nth-child(3){
+    animation-delay: 4s;
+}
+
+@keyframes zoomOut {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+.intro.animation{
+    animation: zoomOut 1s forwards;
+}
+
 /*===== HOME SECTION=====*/
 .home-section {
     background: linear-gradient(to right,#5f5fd141,  #00008b2f);
