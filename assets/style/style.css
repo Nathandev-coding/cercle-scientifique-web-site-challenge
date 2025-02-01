@@ -6,7 +6,34 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+/*=========== ANIMATION SCROLL ===========*/
+.box{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: transform 1s ease,opacity 1.1s ease;
+}
+.box.anime{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.from-top{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 1s ease,opacity 1.1s ease;
+}
+.from-top.top{
+    opacity: 1;
+    transform: translateY(0);
+}
+.zoom-in{
+    opacity: 0;
+    transform: scale(0.8);
+    transition: scale 1.5s ease,opacity 1.1s ease,;
+}
+.zoom-in.zoom{
+    opacity: 1;
+    transform: scale(1);
+}
 
 /* ======= HEADER ======*/
 /* ======= nav-menu ======*/
